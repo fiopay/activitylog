@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Auth as Auth;
-use Spatie\Activitylog\ActivitylogSupervisor;
+use Fiopay\ActivityLog\ActivityLogSupervisor;
 
 class ActivityLogSupervistorTest extends PHPUnit_Framework_TestCase
 {
