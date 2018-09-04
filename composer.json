@@ -1,8 +1,7 @@
 {
-    "name": "spatie/activitylog",
+    "name": "fiopay/activitylog",
     "description": "A very simple activity logger to monitor the users of your website or application",
-    "homepage": "https://github.com/spatie/activitylog",
-    "abandoned" : "This package has been replaced by spatie/laravel-activitylog",
+    "homepage": "https://github.com/fiopay/activitylog",
     "keywords":
         [
             "log",
@@ -12,8 +11,8 @@
         ],
     "authors": [
         {
-            "name": "Freek Van der Herten",
-            "email": "freek@spatie.be"
+            "name": "Nolan Le",
+            "email": "nolanle@fiopay.com"
         }
     ],
     "require": {
@@ -30,7 +29,7 @@
             "src/migrations"
         ],
         "psr-0": {
-            "Spatie\\Activitylog\\": "src/"
+            "Fiopay\\ActivityLog\\": "src/"
         }
     },
     "license": "MIT"
