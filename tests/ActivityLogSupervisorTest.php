@@ -11,7 +11,7 @@ class ActivityLogSupervistorTest extends PHPUnit_Framework_TestCase
 
     public function setUp()
     {
-        $this->logHandler = Mockery::mock('\Spatie\Activitylog\Handlers\EloquentHandler');
+        $this->logHandler = Mockery::mock('\Fiopay\ActivityLog\Handlers\EloquentHandler');
         $this->config = Mockery::mock('\Illuminate\Config\Repository');
         $this->auth = Mockery::mock('Illuminate\Contracts\Auth\Guard');
 

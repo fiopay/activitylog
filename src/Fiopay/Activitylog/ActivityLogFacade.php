@@ -1,10 +1,10 @@
 <?php
 
-namespace Spatie\Activitylog;
+namespace Fiopay\ActivityLog;
 
 use Illuminate\Support\Facades\Facade;
 
-class ActivitylogFacade extends Facade
+class ActivityLogFacade extends Facade
 {
     /**
      * Get the registered name of the component.

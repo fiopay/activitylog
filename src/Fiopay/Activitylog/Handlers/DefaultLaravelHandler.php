@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Activitylog\Handlers;
+namespace Fiopay\ActivityLog\Handlers;
 
 use Log;
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace Spatie\Activitylog\Handlers;
+namespace Fiopay\ActivityLog\Handlers;
 
-use Spatie\Activitylog\Models\Activity;
+use Fiopay\ActivityLog\Models\Activity;
 use Carbon\Carbon;
 
 class EloquentHandler implements ActivitylogHandlerInterface

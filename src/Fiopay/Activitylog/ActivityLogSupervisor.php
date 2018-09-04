@@ -1,15 +1,15 @@
 <?php
 
-namespace Spatie\Activitylog;
+namespace Fiopay\ActivityLog;
 
 use Illuminate\Config\Repository;
 use Illuminate\Contracts\Auth\Guard;
-use Spatie\Activitylog\Handlers\BeforeHandler;
-use Spatie\Activitylog\Handlers\DefaultLaravelHandler;
+use Fiopay\ActivityLog\Handlers\BeforeHandler;
+use Fiopay\ActivityLog\Handlers\DefaultLaravelHandler;
 use Request;
 use Config;
 
-class ActivitylogSupervisor
+class ActivityLogSupervisor
 {
     /**
      * @var array logHandlers

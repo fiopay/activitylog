@@ -1,10 +1,10 @@
 <?php
 
-namespace Spatie\Activitylog;
+namespace Fiopay\ActivityLog;
 
 use Illuminate\Support\ServiceProvider;
 
-class ActivitylogServiceProvider extends ServiceProvider
+class ActivityLogServiceProvider extends ServiceProvider
 {
     /**
      * Indicates if loading of the provider is deferred.
@@ -40,12 +40,12 @@ class ActivitylogServiceProvider extends ServiceProvider
     {
         $this->app->bind(
             'activity',
-            'Spatie\Activitylog\ActivitylogSupervisor'
+            'Fiopay\ActivityLog\ActivitylogSupervisor'
         );
 
         $this->app->bind(
-            'Spatie\Activitylog\Handlers\ActivitylogHandlerInterface',
-            'Spatie\Activitylog\Handlers\EloquentHandler'
+            'Fiopay\ActivityLog\Handlers\ActivityLogHandlerInterface',
+            'Fiopay\ActivityLog\Handlers\EloquentHandler'
         );
     }
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Activitylog\Models;
+namespace Fiopay\ActivityLog\Models;
 
 use Eloquent;
 use Config;
